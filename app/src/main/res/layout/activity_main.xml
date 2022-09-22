@@ -20,7 +20,7 @@
             android:layout_weight="1"
             android:background="@null"
             android:onClick="previousMonthAction"
-            tools:srcCompat="@drawable/GoBackButton" />
+            tools:srcCompat="@drawable/backbutton" />
 
         <TextView
             android:id="@+id/monthYearTV"
