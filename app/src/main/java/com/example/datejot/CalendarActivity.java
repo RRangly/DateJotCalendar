@@ -16,6 +16,17 @@ import java.util.ArrayList;
 
 public class CalendarActivity extends AppCompatActivity implements CalendarAdapter.OnItemListener
 {
+    /*ScreenWidthDp = configuration.screenWidthDp; ScreenHeightDp = configuration.screenHeightDp;
+        if (ScreenWidthDp >= 1023 || ScreenHeightDp >= 1023) {
+            setContentView(R.layout.activity_main_tablet);
+        }else {
+            setContentView(R.layout.activity_main_phone);
+        }
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+        TimeText = findViewById(R.id.TimeText);
+        CurrentDate = Calendar.getInstance().getTime();*/
     private TextView monthYearText;
     private RecyclerView calendarRecyclerView;
     private LocalDate selectedDate;
