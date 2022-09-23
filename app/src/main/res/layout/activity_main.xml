@@ -32,16 +32,13 @@
             android:textAlignment="center"
             android:textColor="@color/black"/>
 
-        <Button
+        <ImageButton
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="@string/forward"
-            android:textColor="@color/black"
             android:background="@null"
-            android:textStyle="bold"
             android:onClick="nextMonthAction"
-            android:textSize="20sp"/>
+            tools:srcCompat="@drawable/forwardbutton" />
 
     </LinearLayout>
 
